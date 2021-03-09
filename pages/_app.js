@@ -9,10 +9,4 @@ function MyApp({ Component, pageProps }) {
   )
 }
 
-if (typeof window !== "undefined") {
-  require("jquery");
-  require("popper.js");
-  require("bootstrap");
-}
-
 export default MyApp
